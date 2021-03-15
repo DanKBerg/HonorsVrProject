@@ -10802,6 +10802,8 @@ GameObject:
   - component: {fileID: 6066578758800214551}
   - component: {fileID: 3081976622585840306}
   - component: {fileID: 7589264582301196702}
+  - component: {fileID: 2119147397}
+  - component: {fileID: 2119147402}
   m_Layer: 0
   m_Name: VR Rig
   m_TagString: Untagged
@@ -10869,6 +10871,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 0}
+--- !u!114 &2119147397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066578758800214550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf674eeed6005854fac78b5e4569dff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTeleportRay: {fileID: 1549574287}
+  rightTeleportRay: {fileID: 5657810720847295366}
+  teleportActivationButton: 14
+  activationThreshold: 0.1
+--- !u!114 &2119147402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066578758800214550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1729400b71b6df04abe022c348842fdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftHand: {fileID: 6066578758252124658}
+  quitButton: 1
+  activationThreshold: 0.1
 --- !u!1 &6066578759556372170
 GameObject:
   m_ObjectHideFlags: 0
